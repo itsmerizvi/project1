@@ -1,0 +1,251 @@
+.main1{
+    background-color: gray;
+    /*height: 1018px;*/
+   /* border: 5px solid greenyellow;
+    */
+    width:75%;
+    padding-bottom:8%;
+ /*   animation:bgchange;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+*/}
+.main2{
+    background-color: black;
+}
+.main3{
+    background-color: rgb(109, 124, 124);
+}
+.main4{
+    background-color: darkgrey;
+}
+.base{
+    background-color: black;
+}
+.content{
+    font-size: 2vw;
+    font-family: monospace;
+
+}
+.content2{
+    font-size: 2vw;
+    font-family: monospace;
+    color: aliceblue;
+}
+.social{
+    width: 3vw;
+    height: 3vw;
+    font-size: 2vw;
+    border: 2px solid white;
+    padding:1vw;
+    border-radius: 5vw;
+    margin:0.5vw;
+    color: aliceblue;
+}
+.link1{
+    color:aliceblue;
+    font-size: 4vw;
+}
+.social:hover{
+    background-color: darkgray;
+    color:black;
+}
+.carouselcap{
+    width:100%;
+    background-color: aliceblue;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    color:black;
+    font-size: 40px;
+    border-radius: 50px;
+    font-weight: bold;
+}
+.myname{
+    margin-top: 5%;    
+    font-size: 11vw;
+    line-height: 10vw;
+    font-weight:bold ;
+    font-family:sans-serif;
+    animation: glow;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.myname span:hover{
+    animation-name: example;
+    animation-duration: 1s;
+    font-size: larger;
+   
+}
+
+.head1{
+    color:aliceblue;
+    text-align: center;
+
+}
+.border1{
+    border: 8px double royalblue;
+}
+.card1{
+   
+    width:90%;
+
+}
+.card1:hover{
+    width:100%;
+}
+
+.imgx{
+    width:90%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.imgx:hover{
+    border: 3px double white;
+}
+/*
+.mynameborder{
+    border:5px solid yellow;
+}*/
+.walking{
+    position: relative;
+    animation-name: walk;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+/*
+@keyframes bgchange {
+    0%{background-color: gray;}
+    20%{background-color: darkgray;}
+    40%{background-color: slategray;}
+    60%{background-color: darkslategrey;}
+    80%{background-color: dimgray;}
+    100%{background: gray;}
+    
+}*/
+@keyframes walk {
+   0% {left: 0px;}
+ 100% {left: 75%;}
+  }
+
+  @keyframes glow {
+    0% {text-shadow: none;}
+    25%{text-shadow: 0px 0px 10px white,0px 0px 5px rgb(0, 255, 251);}
+    50% {text-shadow: 0px 0px 20px white,0px 0px 10px rgb(78, 19, 215);}
+    75%{text-shadow: 0px 0px 10px white,0px 0px 5px rgb(38, 0, 255);}
+    100%{text-shadow: 0px 0px 0px white,0px 0px 0px rgb(78, 19, 215);}
+   }
+
+@keyframes example {
+    0%   {color: red;}
+    25%  {color: yellow;}
+    50%  {color: blue;}
+    100% {color: green;}
+  }
+  
+  @media only screen and (max-width: 400px){
+
+    .myname2{
+        font-size: 40px;
+    }
+    .walking{
+        width: 25%;
+    }
+    .carouselcap{
+        font-size:10px;
+        padding-top: 0%;
+        padding-bottom: 0%;
+    }
+    .content2{
+        font-size: 4vw;
+    }
+    .content{
+        font-size:4vw;
+    }
+}
+@media only screen and (min-width: 400px){
+
+    .walking{
+        width: 25%;
+    }
+    .carouselcap{
+        font-size:10px;
+        padding-top: 0%;
+        padding-bottom: 0%;
+    }
+    .content2{
+        font-size: 4vw;
+    }
+    .content{
+        font-size:4vw;
+    }
+}
+@media only screen and (min-width: 600px){
+
+    .walking{
+        width: 25%;
+    }
+    .carouselcap{
+        font-size:20px;
+        padding-top: 0%;
+        padding-bottom: 0%;
+    }
+    .content{
+        font-size:4vw;
+    }
+}
+@media only screen and (min-width: 768px) {
+
+    .walking{
+        width: 25%;
+    }
+    .carouselcap{
+        font-size:30px;
+        padding-top: 0%;
+        padding-bottom: 0%;
+    }
+    .content2{
+        font-size: 4vw;
+    }
+    .content{
+        font-size:4vw;
+    }
+    
+}
+@media only screen and (min-width: 992px) {
+
+    .walking{
+        width: 25%;
+    }
+    .carouselcap{
+        font-size:30px;
+        padding-top: 0%;
+        padding-bottom: 0%;
+    }
+    .content2{
+        font-size: 4vw;
+    }
+    .content{
+        font-size:4vw;
+    }
+}
+@media only screen and (min-width: 1200px){
+
+    .walking{
+        width: 25%;
+    }
+    .carouselcap{
+        font-size:35px;
+        padding-top: 0%;
+        padding-bottom: 0%;
+    }
+}
+@media only screen and (min-width: 1300px){
+
+    .walking{
+        width: 25%;
+    }
+    .carouselcap{
+        font-size:35px;
+        padding-top: 0%;
+        padding-bottom: 0%;
+    }
+}
